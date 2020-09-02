@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1599006594,,"wq"
+|2,0,1599013298,,"wq"
 :q
 |2,0,1599005288,,"q"
 :set fileformat=unix
@@ -94,65 +94,74 @@ $
 "0	CHAR	0
 	 
 |3,0,0,0,1,0,1591994550," "
-"1	LINE	0
-	# set number	" show line numbers
-|3,0,1,1,1,0,1598880732,"# set number	\" show line numbers"
+"1	CHAR	0
+	
+	#
+|3,0,1,0,2,0,1599013266,"","#"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1598821851,""
+	# set number	" show line numbers
+|3,0,2,1,1,0,1598880732,"# set number	\" show line numbers"
 "3	LINE	0
-	PROMPT='%m:%1~ %n%#'
-|3,0,3,1,1,0,1598814503,"PROMPT='%m:%1~ %n%#'"
+	
+|3,0,3,1,1,0,1598821851,""
 "4	LINE	0
-	
-|3,0,4,1,1,0,1598814209,""
+	PROMPT='%m:%1~ %n%#'
+|3,0,4,1,1,0,1598814503,"PROMPT='%m:%1~ %n%#'"
 "5	LINE	0
-	PS1='%n@%m %~$ '
-|3,0,5,1,1,0,1598814207,"PS1='%n@%m %~$ '"
-"6	LINE	0
 	
-|3,0,6,1,1,0,1598811511,""
+|3,0,5,1,1,0,1598814209,""
+"6	LINE	0
+	PS1='%n@%m %~$ '
+|3,0,6,1,1,0,1598814207,"PS1='%n@%m %~$ '"
 "7	LINE	0
-	export ZSH=/usr/share/oh-my-zsh/
-|3,0,7,1,1,0,1598811509,"export ZSH=/usr/share/oh-my-zsh/"
+	
+|3,0,7,1,1,0,1598811511,""
 "8	LINE	0
-	# path to oh my zsh installation
-|3,0,8,1,1,0,1598811509,"# path to oh my zsh installation"
+	export ZSH=/usr/share/oh-my-zsh/
+|3,0,8,1,1,0,1598811509,"export ZSH=/usr/share/oh-my-zsh/"
 "9	LINE	0
-	#alias etcn='shred -fuzv ~/.local/share/Trash/files/*'
-|3,0,9,1,1,0,1598808829,"#alias etcn='shred -fuzv ~/.local/share/Trash/files/*'"
+	# path to oh my zsh installation
+|3,0,9,1,1,0,1598811509,"# path to oh my zsh installation"
 "n	CHAR	0
 	€kb
 |3,0,23,0,1,0,1596163072,"€kb"
 ""-	CHAR	0
-	#
-|3,1,36,0,1,0,1599006588,"#"
+	 
+|3,1,36,0,1,0,1599013269," "
 
 # File marks:
-'0  110  0  ~/.zshrc
-|4,48,110,0,1599006594,"~/.zshrc"
-'1  8  43  ~/.cfg/config
-|4,49,8,43,1599005337,"~/.cfg/config"
-'2  1  0  ~/.cfg/config
-|4,50,1,0,1599005288,"~/.cfg/config"
+'0  1  12  ~/dotfiles/COMMIT_EDITMSG
+|4,48,1,12,1599013298,"~/dotfiles/COMMIT_EDITMSG"
+'1  110  0  ~/.zshrc
+|4,49,110,0,1599006594,"~/.zshrc"
+'2  8  43  ~/.cfg/config
+|4,50,8,43,1599005337,"~/.cfg/config"
 '3  1  0  ~/.cfg/config
 |4,51,1,0,1599005288,"~/.cfg/config"
-'4  8  7  ~/dotfiles/config
-|4,52,8,7,1599005177,"~/dotfiles/config"
-'5  8  43  ~/dotfiles/config
-|4,53,8,43,1599005154,"~/dotfiles/config"
-'6  72  0  ~/.zshrc
-|4,54,72,0,1599002984,"~/.zshrc"
+'4  1  0  ~/.cfg/config
+|4,52,1,0,1599005288,"~/.cfg/config"
+'5  8  7  ~/dotfiles/config
+|4,53,8,7,1599005177,"~/dotfiles/config"
+'6  8  43  ~/dotfiles/config
+|4,54,8,43,1599005154,"~/dotfiles/config"
 '7  72  0  ~/.zshrc
 |4,55,72,0,1599002984,"~/.zshrc"
-'8  70  0  ~/.zshrc
-|4,56,70,0,1599002179,"~/.zshrc"
+'8  72  0  ~/.zshrc
+|4,56,72,0,1599002984,"~/.zshrc"
 '9  70  0  ~/.zshrc
 |4,57,70,0,1599002179,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  1  12  ~/dotfiles/COMMIT_EDITMSG
+|4,39,1,12,1599013298,"~/dotfiles/COMMIT_EDITMSG"
 -'  110  0  ~/.zshrc
 |4,39,110,0,1599006594,"~/.zshrc"
+-'  110  0  ~/.zshrc
+|4,39,110,0,1599006594,"~/.zshrc"
+-'  1  0  ~/.zshrc
+|4,39,1,0,1599006576,"~/.zshrc"
+-'  2  0  ~/.zshrc
+|4,39,2,0,1599006576,"~/.zshrc"
 -'  1  0  ~/.zshrc
 |4,39,1,0,1599006576,"~/.zshrc"
 -'  2  0  ~/.zshrc
@@ -161,10 +170,22 @@ $
 |4,39,8,43,1599005337,"~/.cfg/config"
 -'  8  43  ~/.cfg/config
 |4,39,8,43,1599005337,"~/.cfg/config"
+-'  8  43  ~/.cfg/config
+|4,39,8,43,1599005337,"~/.cfg/config"
+-'  8  43  ~/.cfg/config
+|4,39,8,43,1599005337,"~/.cfg/config"
 -'  1  0  ~/.cfg/config
 |4,39,1,0,1599005316,"~/.cfg/config"
 -'  1  0  ~/.cfg/config
 |4,39,1,0,1599005316,"~/.cfg/config"
+-'  1  0  ~/.cfg/config
+|4,39,1,0,1599005316,"~/.cfg/config"
+-'  1  0  ~/.cfg/config
+|4,39,1,0,1599005316,"~/.cfg/config"
+-'  1  0  ~/.cfg/config
+|4,39,1,0,1599005288,"~/.cfg/config"
+-'  1  0  ~/.cfg/config
+|4,39,1,0,1599005288,"~/.cfg/config"
 -'  1  0  ~/.cfg/config
 |4,39,1,0,1599005288,"~/.cfg/config"
 -'  1  0  ~/.cfg/config
@@ -185,6 +206,38 @@ $
 |4,39,8,7,1599005177,"~/dotfiles/config"
 -'  8  7  ~/dotfiles/config
 |4,39,8,7,1599005177,"~/dotfiles/config"
+-'  8  7  ~/dotfiles/config
+|4,39,8,7,1599005177,"~/dotfiles/config"
+-'  8  7  ~/dotfiles/config
+|4,39,8,7,1599005177,"~/dotfiles/config"
+-'  8  7  ~/dotfiles/config
+|4,39,8,7,1599005177,"~/dotfiles/config"
+-'  8  7  ~/dotfiles/config
+|4,39,8,7,1599005177,"~/dotfiles/config"
+-'  8  7  ~/dotfiles/config
+|4,39,8,7,1599005177,"~/dotfiles/config"
+-'  8  7  ~/dotfiles/config
+|4,39,8,7,1599005177,"~/dotfiles/config"
+-'  8  7  ~/dotfiles/config
+|4,39,8,7,1599005177,"~/dotfiles/config"
+-'  8  7  ~/dotfiles/config
+|4,39,8,7,1599005177,"~/dotfiles/config"
+-'  1  0  ~/dotfiles/config
+|4,39,1,0,1599005165,"~/dotfiles/config"
+-'  1  0  ~/dotfiles/config
+|4,39,1,0,1599005165,"~/dotfiles/config"
+-'  1  0  ~/dotfiles/config
+|4,39,1,0,1599005165,"~/dotfiles/config"
+-'  1  0  ~/dotfiles/config
+|4,39,1,0,1599005165,"~/dotfiles/config"
+-'  1  0  ~/dotfiles/config
+|4,39,1,0,1599005165,"~/dotfiles/config"
+-'  1  0  ~/dotfiles/config
+|4,39,1,0,1599005165,"~/dotfiles/config"
+-'  1  0  ~/dotfiles/config
+|4,39,1,0,1599005165,"~/dotfiles/config"
+-'  1  0  ~/dotfiles/config
+|4,39,1,0,1599005165,"~/dotfiles/config"
 -'  1  0  ~/dotfiles/config
 |4,39,1,0,1599005165,"~/dotfiles/config"
 -'  1  0  ~/dotfiles/config
@@ -217,6 +270,38 @@ $
 |4,39,8,43,1599005154,"~/dotfiles/config"
 -'  8  43  ~/dotfiles/config
 |4,39,8,43,1599005154,"~/dotfiles/config"
+-'  8  43  ~/dotfiles/config
+|4,39,8,43,1599005154,"~/dotfiles/config"
+-'  8  43  ~/dotfiles/config
+|4,39,8,43,1599005154,"~/dotfiles/config"
+-'  8  43  ~/dotfiles/config
+|4,39,8,43,1599005154,"~/dotfiles/config"
+-'  8  43  ~/dotfiles/config
+|4,39,8,43,1599005154,"~/dotfiles/config"
+-'  8  43  ~/dotfiles/config
+|4,39,8,43,1599005154,"~/dotfiles/config"
+-'  8  43  ~/dotfiles/config
+|4,39,8,43,1599005154,"~/dotfiles/config"
+-'  8  43  ~/dotfiles/config
+|4,39,8,43,1599005154,"~/dotfiles/config"
+-'  8  43  ~/dotfiles/config
+|4,39,8,43,1599005154,"~/dotfiles/config"
+-'  1  0  ~/dotfiles/config
+|4,39,1,0,1599005128,"~/dotfiles/config"
+-'  1  0  ~/dotfiles/config
+|4,39,1,0,1599005128,"~/dotfiles/config"
+-'  1  0  ~/dotfiles/config
+|4,39,1,0,1599005128,"~/dotfiles/config"
+-'  1  0  ~/dotfiles/config
+|4,39,1,0,1599005128,"~/dotfiles/config"
+-'  1  0  ~/dotfiles/config
+|4,39,1,0,1599005128,"~/dotfiles/config"
+-'  1  0  ~/dotfiles/config
+|4,39,1,0,1599005128,"~/dotfiles/config"
+-'  1  0  ~/dotfiles/config
+|4,39,1,0,1599005128,"~/dotfiles/config"
+-'  1  0  ~/dotfiles/config
+|4,39,1,0,1599005128,"~/dotfiles/config"
 -'  1  0  ~/dotfiles/config
 |4,39,1,0,1599005128,"~/dotfiles/config"
 -'  1  0  ~/dotfiles/config
@@ -267,92 +352,22 @@ $
 |4,39,72,0,1599002984,"~/.zshrc"
 -'  72  0  ~/.zshrc
 |4,39,72,0,1599002984,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1599002956,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1599002956,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1599002956,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1599002956,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1599002956,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1599002956,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1599002956,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1599002956,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1599002956,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1599002956,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1599002956,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1599002956,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1599002956,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1599002956,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1599002956,"~/.zshrc"
--'  1  0  ~/.zshrc
-|4,39,1,0,1599002956,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
--'  70  0  ~/.zshrc
-|4,39,70,0,1599002179,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/dotfiles/COMMIT_EDITMSG
+	*	1599013298	0
+	"	1	12
+	^	1	13
+	.	1	12
+	+	1	34
+	+	3	0
+	+	1	0
+	+	3	0
+	+	1	0
+	+	2	0
+	+	1	12
+	i	1	0
 
 > ~/.zshrc
 	*	1599006588	0
@@ -422,16 +437,6 @@ $
 	^	8	44
 	.	8	43
 	+	8	43
-
-> ~/dotfiles/COMMIT_EDITMSG
-	*	1598973164	0
-	"	1	21
-	^	1	22
-	.	1	21
-	+	1	34
-	+	3	0
-	+	1	21
-	i	1	0
 
 > ~/.vimrc
 	*	1598905213	0
