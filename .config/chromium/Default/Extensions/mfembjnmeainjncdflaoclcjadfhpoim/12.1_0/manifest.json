@@ -1,0 +1,41 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/dexie.min.js", "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "images/gwgd-logo.png",
+      "default_popup": "pages/page-action.html",
+      "default_title": "Click here to quickly view word definitions for selected word."
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_matches": [ "*://*.goodwordguide.com/*" ],
+      "js": [ "js/vue.js", "js/content-script.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "homepage_url": "https://www.goodwordguide.com",
+   "icons": {
+      "128": "images/gwgd-logo.png",
+      "48": "images/gwgd-logo.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDShHf9TlxWh9nOGWNvx3IGnkV20mu/X8PHd8era2AlM17ja1G+JcWlQtJLFIQM287f33DjwOyIunsFlz0oGP8NykpE9Bwsb+0YvjSPAOsuVwsAu9GGDkok6o4WtagRC9J0QE1gRDkytDBJ1MYLblmtknmQd/ayZdB+0kwgHjqUpwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_extName__",
+   "omnibox": {
+      "keyword": "dictionary"
+   },
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "pages/options.html"
+   },
+   "permissions": [ "activeTab", "alarms", "contextMenus", "storage" ],
+   "short_name": "Dictionary Bubble",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "12.1",
+   "web_accessible_resources": [ "css/w-app.css", "js_src/vue.js", "pages/options.html" ]
+}

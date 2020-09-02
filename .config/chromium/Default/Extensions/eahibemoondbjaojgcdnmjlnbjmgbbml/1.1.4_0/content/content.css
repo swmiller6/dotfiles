@@ -1,0 +1,30 @@
+*[data-v-e7f60466] {
+  box-sizing: border-box;
+}
+.pin[data-v-e7f60466] {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  font-size: 23px;
+  line-height: 40px;
+  background-clip: padding-box;
+  cursor: pointer;
+  border-radius: 50%;
+  color: #5f6368;
+  border: 2px solid transparent;
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.pin i[data-v-e7f60466] {
+    transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.pin:active i[data-v-e7f60466] {
+    transform: scale(0.9);
+}
+.pin[data-v-e7f60466]:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+}
+.pin.active[data-v-e7f60466] {
+    border-color: #1a73e8;
+    color: #1a73e8;
+}
+

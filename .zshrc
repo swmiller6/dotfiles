@@ -8,7 +8,7 @@ export ZSH="/home/papa/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="bira"
+ZSH_THEME="gnzh"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -69,7 +69,7 @@ ZSH_THEME="bira"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-plugins=(git sudo)
+plugins=(git sudo adb)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -105,7 +105,9 @@ alias gh='cat ~/.zsh_history|grep'
 alias tcn='mv --force -t ~/.local/share/Trash '
 alias srd='shred -fuzv'
 alias cpv='rsync -ah --info=progress2'
-alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME' 
+#alias config='/usr/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME' 
+export DOTBARE_DIR="$HOME/dotfiles"
+export DOTBARE_TREE="$HOME"
 
 # bash functions
 if [ -e $HOME/.bash_functions ]; then

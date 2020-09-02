@@ -1,0 +1,8 @@
+alias ls='ls -F --color=auto'
+alias ll='ls -lh --color=auto'
+alias lt='ls --human-readable --size -1 -S --classify --color=auto'
+alias gh='history|grep'
+alias tcn='mv --force -t ~/.local/share/Trash '
+#alias etcn='shred -fuzv ~/.local/share/Trash/files/*'
+alias srd='shred -fuzv'
+alias cpv='rsync -ah --info=progress2'

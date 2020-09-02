@@ -1,0 +1,52 @@
+2020/08/31-19:03:41.884 15df6 Reusing MANIFEST /home/papa/.config/chromium/Default/Local Extension Settings/cfhdojbkjhnklbpkdaibdccddilifddb/MANIFEST-000001
+2020/08/31-19:04:08.214 14e83 Level-0 table #5: started
+2020/08/31-19:04:08.243 14e83 Level-0 table #5: 1884935 bytes OK
+2020/08/31-19:04:08.247 14e83 Delete type=0 #3
+2020/08/31-19:04:10.890 14e83 Level-0 table #7: started
+2020/08/31-19:04:10.984 14e83 Level-0 table #7: 5316377 bytes OK
+2020/08/31-19:04:10.986 14e83 Delete type=0 #4
+2020/08/31-19:04:42.749 14e83 Level-0 table #9: started
+2020/08/31-19:04:42.850 14e83 Level-0 table #9: 5316183 bytes OK
+2020/08/31-19:04:42.854 14e83 Delete type=0 #6
+2020/08/31-19:04:43.150 14e83 Level-0 table #11: started
+2020/08/31-19:04:43.230 14e83 Level-0 table #11: 5316413 bytes OK
+2020/08/31-19:04:43.233 14e83 Delete type=0 #8
+2020/08/31-19:11:10.350 14e83 Level-0 table #13: started
+2020/08/31-19:11:10.437 14e83 Level-0 table #13: 5316783 bytes OK
+2020/08/31-19:11:10.441 14e83 Delete type=0 #10
+2020/08/31-21:37:29.268 14e83 Level-0 table #15: started
+2020/08/31-21:37:29.397 14e83 Level-0 table #15: 5316685 bytes OK
+2020/08/31-21:37:29.400 14e83 Delete type=0 #12
+2020/08/31-21:37:29.402 14e83 Compacting 4@0 + 1@1 files
+2020/08/31-21:37:29.680 14e83 Generated table #16@0: 1 keys, 5316418 bytes
+2020/08/31-21:37:29.689 14e83 Generated table #17@0: 3 keys, 446 bytes
+2020/08/31-21:37:29.689 14e83 Compacted 4@0 + 1@1 files => 5316864 bytes
+2020/08/31-21:37:29.695 14e83 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/08/31-21:37:29.696 14e83 Delete type=2 #15
+2020/08/31-21:37:29.696 14e83 Delete type=2 #13
+2020/08/31-21:37:29.696 14e83 Delete type=2 #7
+2020/08/31-21:37:29.696 14e83 Delete type=2 #9
+2020/08/31-21:37:29.696 14e83 Delete type=2 #11
+2020/09/01-08:49:42.392 14e83 Level-0 table #19: started
+2020/09/01-08:49:42.466 14e83 Level-0 table #19: 5316776 bytes OK
+2020/09/01-08:49:42.469 14e83 Delete type=0 #14
+2020/09/01-08:49:42.773 14e83 Level-0 table #21: started
+2020/09/01-08:49:42.881 14e83 Level-0 table #21: 5316425 bytes OK
+2020/09/01-08:49:42.885 14e83 Delete type=0 #18
+2020/09/01-09:49:42.404 14e83 Level-0 table #23: started
+2020/09/01-09:49:42.478 14e83 Level-0 table #23: 5316735 bytes OK
+2020/09/01-09:49:42.482 14e83 Delete type=0 #20
+2020/09/01-09:49:42.785 14e83 Level-0 table #25: started
+2020/09/01-09:49:42.876 14e83 Level-0 table #25: 5316378 bytes OK
+2020/09/01-09:49:42.880 14e83 Delete type=0 #22
+2020/09/01-09:49:42.882 14e83 Compacting 4@0 + 2@1 files
+2020/09/01-09:49:43.052 14e83 Generated table #26@0: 1 keys, 5316378 bytes
+2020/09/01-09:49:43.057 14e83 Generated table #27@0: 3 keys, 453 bytes
+2020/09/01-09:49:43.057 14e83 Compacted 4@0 + 2@1 files => 5316831 bytes
+2020/09/01-09:49:43.060 14e83 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/09/01-09:49:43.060 14e83 Delete type=2 #25
+2020/09/01-09:49:43.060 14e83 Delete type=2 #17
+2020/09/01-09:49:43.060 14e83 Delete type=2 #23
+2020/09/01-09:49:43.060 14e83 Delete type=2 #19
+2020/09/01-09:49:43.060 14e83 Delete type=2 #16
+2020/09/01-09:49:43.060 14e83 Delete type=2 #21

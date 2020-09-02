@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id="toast"></div>
+    <div id="filter">
+      <select id="browser">
+        <optgroup label="Populars">
+          <option value="IE">Internet Explorer</option>
+          <option value="Safari">Safari</option>
+          <option value="Chrome">Chrome</option>
+          <option value="Firefox">Firefox</option>
+          <option value="Opera">Opera</option>
+          <option value="Edge">Edge</option>
+          <option value="Vivaldi">Vivaldi</option>
+        </optgroup>
+        <optgroup label="Others"></optgroup>
+      </select>
+      <select id="os">
+        <optgroup label="Populars">
+          <option value="Windows">Windows</option>
+          <option value="Mac OS">Mac OS</option>
+          <option value="Linux">Linux</option>
+          <option value="Chromium OS">Chromium OS</option>
+          <option value="Ubuntu">Ubuntu</option>
+          <option value="Debian">Debian</option>
+          <option value="Android">Android</option>
+          <option value="iOS">iOS</option>
+        </optgroup>
+        <optgroup label="Others"></optgroup>
+      </select>
+        <input type="search" id="custom" placeholder="Filter items">
+        <select id="sort">
+          <option value="descending">Z to A</option>
+          <option value="ascending">A to Z</option>
+        </select>
+    </div>
+    <div id="list" data-loading=true>
+      <table>
+        <colgroup>
+          <col width="40">
+          <col width="150">
+          <col width="100">
+          <col>
+        </colgroup>
+        <template>
+          <tr>
+            <td><input type="radio" name="select"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </template>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div id="view">
+      <table>
+        <colgroup>
+          <col width="10">
+          <col>
+          <col width="10">
+          <col>
+        </colgroup>
+        <tr>
+          <td>userAgent</td>
+          <td colspan="3">
+            <div hbox>
+              <input id="ua" type="text" autofocus placeholder="Your preferred user-agent string" title="To set a blank user-agent string, use the 'empty' keyword. To construct a custom user-agent string based on the current browser's navigator object, use ${} notation. Whatever is inside this notation is read from the 'navigator' object. For instance, to append a string to the default user-agent, use '${userAgent} THIS IS THE APPENDED STRING'">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>appVersion</td>
+          <td colspan="3">
+            <div hbox>
+              <input readonly value="-" id="appVersion" type="text" title="This is a readonly field. Use options page for custom parsing.">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>platform</td>
+          <td>
+            <div hbox>
+              <input readonly value="-" id="platform" type="text" title="This is a readonly field. Use options page for custom parsing.">
+            </div>
+          </td>
+          <td>vendor</td>
+          <td>
+            <div hbox>
+              <input readonly value="-" id="vendor" type="text" title="This is a readonly field. Use options page for custom parsing.">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>product</td>
+          <td>
+            <div hbox>
+              <input readonly value="-" id="product" type="text" title="This is a readonly field. Use options page for custom parsing.">
+            </div>
+          </td>
+          <td>oscpu</td>
+          <td>
+            <div hbox>
+              <input readonly value="-" id="oscpu" type="text" title="This is a readonly field. Use options page for custom parsing.">
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="explore" data-cols=4></div>
+    <div id="agent" align="center">
+      <input type="button" value="Options" title="Open options page" style="margin-left: 2px;" data-cmd="options">
+      <input type="button" value="Restart" title="Click to reload the extension. This will cause all the window-based user-agent strings to be cleared" data-cmd="reload">
+      <input type="button" value="Refresh Tab" title="Refresh the current page" data-cmd="refresh">
+      <input type="button" value="Reset" title="Reset browser's user-agent string to the default one. This will not reset window-based UA strings. To reset them, use the 'Restart' button" data-cmd="reset">
+      <input type="button" value="Test UA" title="Test your user-agent string" data-cmd="test">
+      <input type="button" value="Consider Containers" title="Allow the extension to access your browser's containers. If this permission is granted, tabs inside isolated containers do not follow the default container's user-agent string. You need to set this string for each new container." data-cmd="container" class="hide">
+      <input type="button" value="Apply (active window)" title="Set this user-agent string for all tabs inside the current window" data-cmd="window">
+      <input type="button" value="Apply (all windows)" title="Set this user-agent string as the browser's User-Agent string" data-cmd="apply">
+    </div>
+    <script src="index.js"></script>
+    <script async src="matched.js"></script>
+  </body>
+</html>

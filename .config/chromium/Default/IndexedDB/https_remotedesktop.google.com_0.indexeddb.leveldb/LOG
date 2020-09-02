@@ -1,0 +1,5 @@
+2020/08/31-18:08:25.760 14ba5 Reusing MANIFEST /home/papa/.config/chromium/Default/IndexedDB/https_remotedesktop.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/31-18:08:28.115 14ea9 Level-0 table #5: started
+2020/08/31-18:08:28.121 14ea9 Level-0 table #5: 2173 bytes OK
+2020/08/31-18:08:28.125 14ea9 Delete type=0 #3
+2020/08/31-18:08:28.125 14ea9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

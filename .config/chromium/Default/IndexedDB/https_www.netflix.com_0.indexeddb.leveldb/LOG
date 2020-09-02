@@ -1,0 +1,6 @@
+2020/04/06-21:31:59.809 c713 Reusing MANIFEST /home/papa/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/04/06-21:31:59.810 c713 Recovering log #3
+2020/04/06-21:31:59.848 c713 Reusing old log /home/papa/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000003.log 
+2020/04/06-22:10:34.116 cc45 Level-0 table #5: started
+2020/04/06-22:10:34.142 cc45 Level-0 table #5: 2498513 bytes OK
+2020/04/06-22:10:34.146 cc45 Delete type=0 #3

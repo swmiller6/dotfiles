@@ -1,0 +1,83 @@
+{
+   "checksum": "46f12f4cd5d88aefe4a1c68ebce69884",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13230666203788894",
+               "guid": "db6eac02-9dfe-4041-9e5d-3353508733ff",
+               "id": "5",
+               "name": "Sonarr",
+               "type": "url",
+               "url": "https://mypvr.millers.ltd/"
+            }, {
+               "date_added": "13230667315261881",
+               "guid": "448806a2-a4d5-4abd-8072-f75aafcd25e2",
+               "id": "7",
+               "name": "Jackett",
+               "type": "url",
+               "url": "https://jackett.millers.ltd/UI/Login?ReturnUrl=%2FUI%2FDashboard"
+            }, {
+               "date_added": "13230666269652790",
+               "guid": "42fee8cc-e3f1-4d71-93e0-907359adc086",
+               "id": "6",
+               "name": "Watcher",
+               "type": "url",
+               "url": "https://couchpotato.millers.ltd/"
+            }, {
+               "date_added": "13230667426718951",
+               "guid": "c9a8777c-160a-4a36-ad97-f7cb00b4bb17",
+               "id": "9",
+               "name": "Plex",
+               "type": "url",
+               "url": "https://app.plex.tv/desktop#"
+            }, {
+               "date_added": "13230667449035709",
+               "guid": "557a984a-c130-469f-9816-40bb5f3e18db",
+               "id": "10",
+               "name": "Netflix",
+               "type": "url",
+               "url": "https://www.netflix.com/browse"
+            }, {
+               "date_added": "13230668417616169",
+               "guid": "637efea7-5568-4d57-9d78-5d4e6866a1ce",
+               "id": "12",
+               "name": "Amazon.com: Prime Video: Prime Video",
+               "type": "url",
+               "url": "https://www.amazon.com/Amazon-Video/b/?ie=UTF8&node=2858778011&ref_=nav_cs_prime_video"
+            } ],
+            "date_added": "13230667340574071",
+            "date_modified": "13230668417616169",
+            "guid": "30690206-1e1f-4aab-a317-d8a743fe308e",
+            "id": "8",
+            "name": "Media",
+            "type": "folder"
+         } ],
+         "date_added": "13230666023932205",
+         "date_modified": "13230667340574827",
+         "guid": "00000000-0000-4000-A000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13230666023932213",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13230666023932214",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

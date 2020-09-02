@@ -1,0 +1,44 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "icons/sp_icon_128.png",
+         "16": "icons/sp_icon_16.png",
+         "48": "icons/sp_icon_48.png"
+      },
+      "default_title": "__MSG_extensionName__"
+   },
+   "chrome_settings_overrides": {
+      "search_provider": {
+         "encoding": "UTF-8",
+         "favicon_url": "https://www.startpage.com/favicon.ico",
+         "is_default": true,
+         "keyword": "startpage.com",
+         "name": "__MSG_searchEngineName__",
+         "search_url": "https://www.startpage.com/do/dsearch?query={searchTerms}&cat=web&pl=ext-chrome&language=__MSG_extensionUrlLanguage__&extVersion=1.1.0"
+      }
+   },
+   "content_scripts": [ {
+      "css": [ "css/content.css" ],
+      "js": [ "js/content.js" ],
+      "matches": [ "https://*.startpage.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "icons": {
+      "128": "icons/sp_icon_128.png",
+      "16": "icons/sp_icon_16.png",
+      "48": "icons/sp_icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgvS/frWiyhMsKpS/MK7Wt7opafAn07kwcdeKkpUJIeBtARJwNp9HdXAFWezV5pr29m/CKZZxi44pOx9tdw0ckchOZE1+1mE2a68tbWG4Ja2yqJgvcqXfPcnCQhtXwPe5LK8LNACnoeurWv4cjSPvrX0W65u3JWkgrDksWtcYpbEs8Xqv4GCN0Do7povXlq9YJcw1A9eH+7cn3SlgelQQ1Axj5uM9a693LpvqG76TL+7/kTy80EJCKNbOQuiPrqMcIPl29zb3czSdkhrNIPDSdrhaloiOqCf4pC2Pe+fL7PtT2dNGX/QMNr4bvtVryHiFxUMibHH7oe6O2Fld4+l2sQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "56",
+   "name": "__MSG_extensionName__",
+   "permissions": [ "storage", "webRequest", "webRequestBlocking", "https://*.startpage.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.1"
+}
