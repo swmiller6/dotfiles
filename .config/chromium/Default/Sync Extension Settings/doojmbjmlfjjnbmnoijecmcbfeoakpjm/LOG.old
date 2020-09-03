@@ -1,8 +1,0 @@
-2020/09/02-10:46:39.575 295bb Log #3: 24 ops saved to Table #7 OK
-2020/09/02-10:46:39.575 295bb Archiving /home/papa/.config/chromium/Default/Sync Extension Settings/doojmbjmlfjjnbmnoijecmcbfeoakpjm/000003.log: OK
-2020/09/02-10:46:39.575 295bb Log #6: 0 ops saved to Table #8 OK
-2020/09/02-10:46:39.575 295bb Archiving /home/papa/.config/chromium/Default/Sync Extension Settings/doojmbjmlfjjnbmnoijecmcbfeoakpjm/000006.log: OK
-2020/09/02-10:46:39.575 295bb Table #4: 24 entries OK
-2020/09/02-10:46:39.575 295bb Table #7: 24 entries OK
-2020/09/02-10:46:39.576 295bb Archiving /home/papa/.config/chromium/Default/Sync Extension Settings/doojmbjmlfjjnbmnoijecmcbfeoakpjm/MANIFEST-000001: OK
-2020/09/02-10:46:39.578 295bb **** Repaired leveldb /home/papa/.config/chromium/Default/Sync Extension Settings/doojmbjmlfjjnbmnoijecmcbfeoakpjm; recovered 2 files; 10680 bytes. Some data may have been lost. ****
