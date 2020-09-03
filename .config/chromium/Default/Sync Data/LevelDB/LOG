@@ -1,3 +1,7 @@
-2020/04/07-08:53:45.464 6ae Reusing MANIFEST /home/papa/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
-2020/04/07-08:53:45.464 6ae Recovering log #3
-2020/04/07-08:53:45.464 6ae Reusing old log /home/papa/.config/chromium/Default/Sync Data/LevelDB/000003.log 
+2020/09/02-10:46:38.214 295bb Reusing MANIFEST /home/papa/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/09/02-10:46:38.215 295bb Recovering log #10
+2020/09/02-10:46:38.217 295bb Reusing old log /home/papa/.config/chromium/Default/Sync Data/LevelDB/000010.log 
+2020/09/02-10:46:38.226 295bb Delete type=2 #7
+2020/09/02-10:46:38.226 295bb Delete type=2 #9
+2020/09/02-10:46:38.226 295bb Delete type=2 #11
+2020/09/02-10:46:38.226 295bb Delete type=0 #3

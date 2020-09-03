@@ -1,5 +1,1 @@
-2020/08/31-21:28:47.258 16ee0 Log #3: 3 ops saved to Table #4 OK
-2020/08/31-21:28:47.259 16ee0 Archiving /home/papa/.config/chromium/Default/File System/Origins/000003.log: OK
-2020/08/31-21:28:47.259 16ee0 Table #4: 3 entries OK
-2020/08/31-21:28:47.259 16ee0 Archiving /home/papa/.config/chromium/Default/File System/Origins/MANIFEST-000001: OK
-2020/08/31-21:28:47.262 16ee0 **** Repaired leveldb /home/papa/.config/chromium/Default/File System/Origins; recovered 1 files; 179 bytes. Some data may have been lost. ****
+2020/08/31-21:28:47.262 16ee0 Reusing MANIFEST /home/papa/.config/chromium/Default/File System/Origins/MANIFEST-000001

@@ -1,8 +1,8 @@
-2020/09/01-10:56:30.694 1e90c Reusing MANIFEST /home/papa/.config/chromium/Default/IndexedDB/chrome-extension_mfembjnmeainjncdflaoclcjadfhpoim_0.indexeddb.leveldb/MANIFEST-000001
-2020/09/01-10:56:30.694 1e90c Recovering log #9016
-2020/09/01-10:56:30.694 1e90c Reusing old log /home/papa/.config/chromium/Default/IndexedDB/chrome-extension_mfembjnmeainjncdflaoclcjadfhpoim_0.indexeddb.leveldb/009016.log 
-2020/09/01-10:56:47.708 14ea9 Level-0 table #9020: started
-2020/09/01-10:56:47.708 14ea9 Level-0 table #9020: 0 bytes OK
-2020/09/01-10:56:47.716 14ea9 Delete type=0 #9016
-2020/09/01-10:56:47.716 14ea9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/09/01-10:56:47.716 14ea9 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
+2020/09/03-07:54:06.300 2b89c Reusing MANIFEST /home/papa/.config/chromium/Default/IndexedDB/chrome-extension_mfembjnmeainjncdflaoclcjadfhpoim_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/03-07:54:06.301 2b89c Recovering log #9288
+2020/09/03-07:54:06.301 2b89c Reusing old log /home/papa/.config/chromium/Default/IndexedDB/chrome-extension_mfembjnmeainjncdflaoclcjadfhpoim_0.indexeddb.leveldb/009288.log 
+2020/09/03-07:54:23.314 296f4 Level-0 table #9292: started
+2020/09/03-07:54:23.314 296f4 Level-0 table #9292: 0 bytes OK
+2020/09/03-07:54:23.345 296f4 Delete type=0 #9288
+2020/09/03-07:54:23.345 296f4 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/03-07:54:23.345 296f4 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

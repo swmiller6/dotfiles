@@ -1,3 +1,19 @@
-2020/04/07-08:53:46.488 6bf Reusing MANIFEST /home/papa/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
-2020/04/07-08:53:46.488 6bf Recovering log #3
-2020/04/07-08:53:46.493 6bf Reusing old log /home/papa/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000003.log 
+2020/09/02-10:46:41.308 295bb Reusing MANIFEST /home/papa/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/02-10:46:41.309 295bb Recovering log #3
+2020/09/02-10:46:41.309 295bb Level-0 table #3: started
+2020/09/02-10:46:41.314 295bb Level-0 table #3: 217 bytes OK
+2020/09/02-10:46:41.314 295bb Recovering log #4
+2020/09/02-10:46:41.314 295bb Reusing old log /home/papa/.config/chromium/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000004.log 
+2020/09/02-10:46:41.319 295bb Delete type=2 #5
+2020/09/02-10:46:41.319 295bb Delete type=0 #3
+2020/09/02-10:46:43.332 296f4 Level-0 table #6: started
+2020/09/02-10:46:43.339 296f4 Level-0 table #6: 201 bytes OK
+2020/09/02-10:46:43.347 296f4 Delete type=0 #4
+2020/09/02-10:46:43.347 296f4 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x00' @ 1 : 1
+2020/09/02-10:46:43.347 296f4 Compacting 2@0 + 0@1 files
+2020/09/02-10:46:43.350 296f4 Generated table #7@0: 3 keys, 217 bytes
+2020/09/02-10:46:43.350 296f4 Compacted 2@0 + 0@1 files => 217 bytes
+2020/09/02-10:46:43.352 296f4 compacted to: files[ 0 1 0 0 0 0 0 ]
+2020/09/02-10:46:43.352 296f4 Delete type=2 #6
+2020/09/02-10:46:43.352 296f4 Delete type=2 #3
+2020/09/02-10:46:43.353 296f4 Manual compaction at level-0 from '\x00\x00\x00\x002\x00' @ 1 : 1 .. (end); will stop at (end)

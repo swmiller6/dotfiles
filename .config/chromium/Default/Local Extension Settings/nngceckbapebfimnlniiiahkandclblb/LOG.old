@@ -1,5 +1,1 @@
-2020/08/31-19:21:51.537 166de Log #3: 354 ops saved to Table #4 OK
-2020/08/31-19:21:51.538 166de Archiving /home/papa/.config/chromium/Default/Local Extension Settings/nngceckbapebfimnlniiiahkandclblb/000003.log: OK
-2020/08/31-19:21:51.539 166de Table #4: 354 entries OK
-2020/08/31-19:21:51.541 166de Archiving /home/papa/.config/chromium/Default/Local Extension Settings/nngceckbapebfimnlniiiahkandclblb/MANIFEST-000001: OK
-2020/08/31-19:21:51.543 166de **** Repaired leveldb /home/papa/.config/chromium/Default/Local Extension Settings/nngceckbapebfimnlniiiahkandclblb; recovered 1 files; 54308 bytes. Some data may have been lost. ****
+2020/08/31-19:21:51.543 166de Reusing MANIFEST /home/papa/.config/chromium/Default/Local Extension Settings/nngceckbapebfimnlniiiahkandclblb/MANIFEST-000001
