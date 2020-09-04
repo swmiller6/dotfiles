@@ -12,3 +12,4 @@ tp http://tplinkrepeater.net/webpages/login.html?v=62c60c5d
 gv https://voice.google.com/u/0/calls
 jk https://jackett.millers.ltd/UI/Dashboard
 nc https://cloud.millers.ltd/index.php/apps/files/?dir=/&fileid=7
+gh https://github.com
