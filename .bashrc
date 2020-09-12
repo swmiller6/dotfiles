@@ -356,4 +356,8 @@ fi
 if [ -e $HOME/.bash_aliases ]; then
     source $HOME/.bash_aliases
 fi
+
+## fix for vim color scheme in tmux
+alais tmux="TERM=screen-256color-bce tmux"
+
 neofetch
