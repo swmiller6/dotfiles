@@ -105,7 +105,7 @@ alias gh='cat ~/.zsh_history|grep'
 alias tcn='mv --force -t ~/.local/share/Trash '
 alias srd='shred -fuzv'
 alias cpv='rsync -ah --info=progress2'
-#alias config='/usr/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME' 
+#alias config='/usr/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME'
 export DOTBARE_DIR="$HOME/dotfiles"
 export DOTBARE_TREE="$HOME"
 
@@ -115,3 +115,6 @@ if [ -e $HOME/.bash_functions ]; then
 fi
 
 #bindkey -v
+
+#if [ -t 0 ] && [[ -z $TMUX ]] && [[ $- = *i* ]]; then exec tmux; fi
+neofetch
