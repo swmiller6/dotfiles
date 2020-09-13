@@ -22,7 +22,7 @@ settings:
     global: https://startpage.com/
   url.searchengines:
     global:
-      DEFAULT: https://startpage.com/do/dsearch?query={}
+      DEFAULT: https://startpage.com/sp/dsearch?query={}
       aw: https://wiki.archlinux.org/?search={}
       re: https://reddit.com/r/{}
   url.start_pages:
