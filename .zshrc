@@ -7,8 +7,8 @@ export ZSH="/home/papa/.oh-my-zsh"
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
-# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="gnzh"
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes my favorite gnzh
+ZSH_THEME="random"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -101,7 +101,7 @@ source $ZSH/oh-my-zsh.sh
 alias ls='ls -F --color=auto'
 alias ll='ls -lh --color=auto'
 alias lt='ls --human-readable --size -1 -S --classify --color=auto'
-alias gh='cat ~/.zsh_history|grep'
+alias gh='cat ~/.zsh_history | grep'
 alias tcn='mv --force -t ~/.local/share/Trash '
 alias srd='shred -fuzv'
 alias cpv='rsync -ah --info=progress2'
