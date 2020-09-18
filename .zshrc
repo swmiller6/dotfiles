@@ -69,7 +69,7 @@ ZSH_THEME="random"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-plugins=(git sudo adb tmux)
+plugins=(git sudo adb)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -116,5 +116,6 @@ fi
 
 #bindkey -v
 
-if [ -t 0 ] && [[ -z $TMUX ]] && [[ $- = *i* ]]; then exec tmux; fi
+#if [ -t 0 ] && [[ -z $TMUX ]] && [[ $- = *i* ]]; then exec tmux; fi
+if [ "$TMUX" = "" ]; then exec tmux; fi
 neofetch
