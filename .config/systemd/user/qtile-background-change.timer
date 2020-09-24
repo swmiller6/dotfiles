@@ -1,0 +1,13 @@
+[Unit]
+Description=Rotate NITROGEN wallpaper timer
+After=sleep.target suspend.target hibernate.target hybrid-sleep.target
+
+[Timer]
+OnCalendar=*:0/5
+Persistent=true
+Unit=qtile-background-change.service
+
+[Install]
+WantedBy=default.target
+#WantedBy=gnome-background-change.service sleep.target sleep.target suspend.target hibernate.target hybrid-sleep.target
+
