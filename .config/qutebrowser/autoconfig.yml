@@ -10,12 +10,17 @@ settings:
     global:
       normal: {}
   content.geolocation:
+    https://brax.me: false
     https://www.fandango.com: true
     https://www.harborfreight.com: true
     https://www.homedepot.com: true
   content.notifications:
     https://voice.google.com: true
     https://wallpaperstock.net: true
+    https://www.macworld.co.uk: false
+    https://www.netflix.com: false
+    https://www.reddit.com: false
+    https://xhamster.com: false
   content.register_protocol_handler:
     https://mail.google.com?extsrc=mailto&url=%25s: true
   url.default_page:
