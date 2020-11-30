@@ -69,7 +69,7 @@ ZSH_THEME="random"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-plugins=(git sudo adb)
+plugins=(git sudo adb dotbare )
 
 source $ZSH/oh-my-zsh.sh
 

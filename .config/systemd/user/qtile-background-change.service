@@ -3,7 +3,7 @@ Description=Rotate NITROGEN background
 
 [Service]
 Type=oneshot
-Environment=DISPLAY=:0
+Environment=DISPLAY=:1
 ExecStart=/usr/bin/bash /opt/qrotate_bg.sh
 
 [Install]
