@@ -7,4 +7,4 @@
 config_version: 2
 settings:
   content.notifications:
-    https://www.facebook.com: true
+    http://192.168.1.133:8089: true

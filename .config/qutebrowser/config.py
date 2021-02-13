@@ -11,7 +11,7 @@
 #   qute://help/settings.html
 
 # Uncomment this to still load settings configured via autoconfig.yml
-# config.load_autoconfig()
+config.load_autoconfig()
 
 # Which cookies to accept. With QtWebEngine, this setting also controls
 # other features with tracking capabilities similar to those of cookies;
@@ -238,7 +238,7 @@ c.url.searchengines = {'DEFAULT': 'https://startpage.com/sp/dsearch?query={}', '
 c.url.start_pages = 'https://startpage.com/'
 
 # Set dark mode on or off
-config.set("colors.webpage.darkmode.enabled", True)
+#config.set("colors.webpage.darkmode.enabled", false)
 
 # Custom keybinding
 config.bind('V', 'hint links spawn vlc {hint-url}')
